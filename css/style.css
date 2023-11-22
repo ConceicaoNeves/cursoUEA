@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #f2f2f2;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    padding: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+.botao {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #555;
+}
+
+section div {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+section#curiosidades {
+    text-align: center;
+}
+
+section#curiosidades h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+section#curiosidades div {
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section#curiosidades img {
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section#curiosidades h3 {
+    color: #333;
+}
+
+section#curiosidades p {
+    color: #555;
+    text-align: justify;
+}
+
+section#obras {
+    text-align: center;
+}
+
+section#obras h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+section#obras img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+section#obras img:hover {
+    transform: scale(1.1);
+}
