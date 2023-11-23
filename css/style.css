@@ -8,13 +8,12 @@ nav {
     background-color: #333;
     color: white;
     padding: 10px;
-    text-align: center;
 }
 
 nav .logo a {
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
+     
 }
 
 nav ul {
@@ -49,6 +48,7 @@ section {
 
 h2 {
     color: #333;
+     
 }
 
 .botao {
@@ -83,17 +83,16 @@ footer {
 
 section#curiosidades {
     text-align: center;
+    padding: 20px; /* Adicionei um espaço interno à seção */
 }
 
 section#curiosidades h2 {
     color: #333;
-    margin-bottom: 30px;
-    font-size: 24px;
+     
 }
 
 section#curiosidades div {
-    width: 300px;
-    height: 200px;
+    width: calc(30% - 10px); /* Usando uma porcentagem da largura da tela e subtraindo a margem */
     margin: 15px;
     padding: 20px;
     background-color: #f2f2f2;
@@ -101,6 +100,7 @@ section#curiosidades div {
     text-align: center;
     display: inline-block;
     vertical-align: top;
+    box-sizing: border-box;
 }
 
 section#curiosidades img {
@@ -116,6 +116,7 @@ section#curiosidades h3 {
 section#curiosidades p {
     color: #555;
     text-align: justify;
+    font-size: 14px; /* Reduzi o tamanho da fonte para melhorar a leitura */
 }
 
 section#obras {
@@ -125,13 +126,11 @@ section#obras {
 section#obras h2 {
     color: #333;
     margin-bottom: 30px;
-    font-size: 24px;
+     
 }
 
 section#obras img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+    width: calc(33.33% - 20px); /* Usando uma porcentagem da largura da tela e subtraindo a margem */
     margin: 10px;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
