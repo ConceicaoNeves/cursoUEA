@@ -1,141 +1,162 @@
+/* Definindo estilos básicos para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Escolhendo a família de fontes para o corpo do documento */
+    margin: 0; /* Removendo margens padrão do corpo */
+    padding: 0; /* Removendo preenchimento padrão do corpo */
 }
 
+p{
+    text-align: justify; /* justicando os textos*/
+}
+
+/* Estilizando a barra de navegação */
 nav {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    color: white; /* Cor do texto na barra de navegação */
+    padding: 20px; /* Preenchimento interno na barra de navegação */
 }
 
+/* Estilizando o logotipo na barra de navegação */
 nav .logo a {
-    text-decoration: none;
-    color: white;
-     
+    text-decoration: none; /* Removendo decoração de texto (sublinhado) do logotipo */
+    color: white; /* Cor do logotipo */
 }
 
+/* Estilizando a lista de itens de navegação na barra de navegação */
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    list-style: none; /* Removendo estilos de lista padrão (pontos) */
+    margin: 0; /* Removendo margens padrão da lista de navegação */
+    padding: 0; /* Removendo preenchimento padrão da lista de navegação */
 }
 
+/* Estilizando cada item de navegação na barra de navegação */
 nav ul li {
-    margin-right: 20px;
+    margin-right: 20px; /* Adicionando margem à direita entre os itens de navegação */
 }
 
+/* Estilizando links na barra de navegação */
 nav a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /* Removendo decoração de texto (sublinhado) dos links */
+    color: white; /* Cor dos links */
 }
 
+/* Estilizando links na barra de navegação quando hover (passa o mouse) */
 nav a:hover {
-    color: #f2f2f2;
+    color: #f2f2f2; /* Alterando a cor dos links ao passar o mouse */
 }
 
+
+/* Estilizando o cabeçalho da página */
 header {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 50px;
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+    text-align: center; /* Centralizando o texto no cabeçalho */
+    padding: 50px; /* Preenchimento interno no cabeçalho */
 }
 
+/* Estilizando seções genéricas na página */
 section {
-    padding: 30px;
+    padding: 30px; /* Preenchimento interno nas seções */
 }
 
+/* Estilizando cabeçalhos de segundo nível (h2) */
 h2 {
-    color: #333;
-     
+    color: #333; /* Cor do texto dos cabeçalhos */
 }
 
+/* Estilizando botões genéricos */
 .botao {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
+    background-color: #333; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Preenchimento interno do botão */
+    text-decoration: none; /* Removendo decoração de texto (sublinhado) do botão */
+    display: inline-block; /* Exibição como bloco em linha */
+    margin-top: 20px; /* Margem superior do botão */
 }
 
+/* Estilizando botões genéricos quando hover (passa o mouse) */
 .botao:hover {
-    background-color: #555;
+    background-color: #555; /* Alterando a cor de fundo ao passar o mouse sobre o botão */
 }
 
+/* Estilizando divisões genéricas nas seções */
 section div {
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* Margem inferior das divisões */
 }
 
+/* Estilizando imagens responsivas */
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Garantindo que as imagens não ultrapassem a largura do contêiner pai */
+    height: auto; /* Mantendo a proporção da imagem */
 }
 
+/* Estilizando o rodapé da página */
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto no rodapé */
+    text-align: center; /* Centralizando o texto no rodapé */
+    padding: 10px; /* Preenchimento interno no rodapé */
+    width: 100%; /* Largura total do rodapé */
 }
 
+/* Estilizando a seção de curiosidades */
 section#curiosidades {
-    text-align: center;
-    padding: 20px; /* Adicionei um espaço interno à seção */
+    text-align: center; /* Centralizando o texto na seção de curiosidades */
+    padding: 20px; /* Adicionando espaço interno à seção de curiosidades */
 }
 
+/* Estilizando cabeçalhos de segundo nível (h2) na seção de curiosidades */
 section#curiosidades h2 {
-    color: #333;
-     
+    color: #333; /* Cor do texto dos cabeçalhos na seção de curiosidades */
 }
 
+/* Estilizando as caixas de curiosidades dentro da seção de curiosidades */
 section#curiosidades div {
-    width: calc(30% - 10px); /* Usando uma porcentagem da largura da tela e subtraindo a margem */
-    margin: 15px;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border-radius: 8px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
+    width: 1200px; /* define a largura do container */
+    margin: 15px; /* Margem ao redor da caixa de curiosidade */
+    padding: 20px; /* Preenchimento interno da caixa de curiosidade */
+    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    border-radius: 8px; /* Bordas arredondadas de 8px */
+    text-align: center; /* Texto centralizado horizontalmente */
+    display: inline-block; /* Exibição como bloco em linha */
+    vertical-align: top; /* Alinhamento vertical no topo */
+    box-sizing: border-box; /* A largura e altura incluem preenchimento e borda */
 }
 
+/* Estilizando imagens nas caixas de curiosidades na seção de curiosidades */
 section#curiosidades img {
-    width: 50px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    width: 50px; /* Largura fixa para as imagens */
+    border-radius: 50%; /* Bordas arredondadas para criar uma aparência circular */
+    margin-bottom: 10px; /* Margem inferior para separar a imagem do texto */
 }
 
+/* Estilizando cabeçalhos de terceiro nível (h3) na seção de curiosidades */
 section#curiosidades h3 {
-    color: #333;
+    color: #333; /* Cor do texto dos cabeçalhos de terceiro nível na seção de curiosidades */
 }
 
+/* Estilizando parágrafos na seção de curiosidades */
 section#curiosidades p {
-    color: #555;
-    text-align: justify;
-    font-size: 14px; /* Reduzi o tamanho da fonte para melhorar a leitura */
+    color: #555; /* Cor do texto dos parágrafos na seção de curiosidades */
+    text-align: justify; /* Justificando o texto na seção de curiosidades */
+    font-size: 14px; /* Tamanho da fonte reduzido para melhorar a leitura */
 }
 
+/* Estilizando a seção de obras */
 section#obras {
-    text-align: center;
+    text-align: center; /* Centralizando o texto na seção de obras */
 }
 
+/* Estilizando cabeçalhos de segundo nível (h2) na seção de obras */
 section#obras h2 {
-    color: #333;
-    margin-bottom: 30px;
-     
+    color: #333; /* Cor do texto dos cabeçalhos na seção de obras */
+    margin-bottom: 30px; /* Margem inferior dos cabeçalhos na seção de obras */
 }
 
+/* Estilizando imagens na seção de obras */
 section#obras img {
-    width: calc(33.33% - 20px); /* Usando uma porcentagem da largura da tela e subtraindo a margem */
-    margin: 10px;
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
+    width: 1800px;/* define a largura do container */
+    margin: 10px; /* Margem ao redor das imagens na seção de obras */
+    border-radius: 8px; /* Bordas arredondadas de 8px nas imagens */
+    transition: transform 0.3s ease-in-out; /* Transição suave ao passar o mouse sobre as imagens */
 }
 
-section#obras img:hover {
-    transform: scale(1.1);
-}
